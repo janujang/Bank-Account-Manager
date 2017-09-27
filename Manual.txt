@@ -1,0 +1,121 @@
+MAIN FUNCTIONALITY
+
+The Banking Account Application is an application made for employees working for a banking company. The Banking Application comes complete with a friendly user-interface where the employee is able to access, edit, 
+deposit and withdraw from any account saved on the program. The application stores a customer’s banking detail in a very sorted and easily accessible format. The program stores the customer’s name, address, phone number, 
+balance for chequing  and savings account and account number which can be easily accessed by the bank employee with ease. 
+ 
+USE:
+Bank Account Manager Application
+
+PROCEDURE FOR SUCCESSFUL OPERATION
+1) Open the actual Login.java to start the application (The jar file doesn’t provide complete functionality as in doesn’t allow you to set a minimum balance or login info
+
+2) Login into the main application by entering the following 
+  
+   username: RBC
+   password: 123 
+
+3)Single click on a customer’s name to view associated savings and chequing account balances
+
+4) Double click on a customer’s name to view savings and checking account number and other particular information such minimum balance and fee
+
+FUNCTIONALITY
+After successfully entering the main application, the user has the ability to load a file from the menu at the top of the window in order to insert multiple customers. After inserting multiple customers, the user can view the individual customer’s savings and chequings account information. In addition, the user can perform multiple actions on a customer by either changing the information, depositing or withdrawing money. The user also has the ability to change the minimum balance for the savings account and configure login username and password.At the end, the user can save the file in order to access the information later.
+
+IMPORTANT 
+Only for admin changes, the main window closes and reopens for security purposes. 
+
+Files
+Select the AccountRecord.text file to load information from. 
+
+Troubleshooting
+In case of any doubt on functionality or program operation, visit the attached user manual for more details. 
+
+
+
+
+
+
+
+LOGIN INFORMATION:
+- Login page includes two text area with one being for the Username and one being for the password.
+- Radio button to allow user to show and hide password
+- Login button to login 
+- If user surpasses 5 attempts at login, the use is locked out and no input on the button or the text fields is allowed. The program must be restarted before user is allowed to input again. 
+- When logged in and the log out button is clicked, you are returned to this screen
+- For initial login use ; Username: justin , Password: 123, username and password can be changed after initial login under the “Settings” tab. 
+
+Layout:
+
+PARTS
+
+Parts of The User Interface includes the Buttons that perform various tasks, Menu bars that have various drop down options and several text fields where information is displayed and updated. 
+
+Buttons:
+- Deposit(Main Interface): When this button is clicked, another window in opened to state amount of deposit in either chequing or savings, that money is subtracted from the balance from that certain account. 
+- Withdraw(Main Interface): When this button is pressed, and performs the same tasks as above but instead deducts money. 
+- Load(File, Main Interface): This button allows the user to choose a file from a file browser to display it. 
+- Save(File, Main Interface): This button saves the changed information such as withdrawals and deposits.
+- Logout(File, Main Interface): This button logs out the current user and takes them back onto the log in screen. 
+- Exit(File, Main Interface):  When this button is clicked, the program exists. 
+- Change Login(Admin, Main Interface): This button opens up a new window for admins to change login information(username and password). 
+-	Change Minimum Fees(Admin, Main Interface): This button allows the user to change the fees charged when withdrawing money from either chequings or savings account. 
+-	Change Info(Edit, Main Interface): This button is activated once a person is selected and when clicked, allows the admin to change and edit the bank information.
+-	Add Customer(Edit, Main Interface): This button allows you to add a new customer with all the required information. 
+-	Remove Customer (Edit, Main Interface): This button activated when a customer is chosen, pressing this button will remove the selected customer. 
+-	Sort By(Main Interface): A scroll area where the admin can chose(Name, Account Number,  how they wish to sort the user information. 
+-	Name (Sort By, Main Interface): This button is located under the sort by menu and sorts all listed information by their last names. 
+-	Chequing(Deposit Window): This radio button is one of the two options and this one lets you deposit into your chequing account.
+-	Savings(Deposit Window): This button is one of the two options and this one lets the admin deposit into the savings account. 
+
+Text Area:
+-	Main Text Area(Main Interface): This text area is located in the middle of the and when a file is loaded, it displays the information such as name, chequings balance and savings balance. 
+-	Username and Password(Login Interface): These two text areas are located on the login interface and are used by the admin for inputting password and the username.
+FILES
+-	Original Read File- This is the file that will be loaded when the “load” button is pressed under the “file” tab. This is a .txt file that contains the information for various individuals. This is also where the changed data will be stored. 
+-	Save File- This similar to the “Original Read File” but is created when the user saves a file after editing. This file is created by the admin and can have a custom name. 
+
+DIFFERENT CLASSES
+
+Customer Class: 
+-	The “Customer” class creates and stores a customer’s information. The class creates a new customer to be used by other classes. 
+-	The Customer class is used by most classes in the program
+
+Account Class:
+-	This account consist extends the Customer Class and creates and stores a customer’s information as assigns the customer to a chequing’s and saving’s account. 
+-	This class creates and assigns individual account numbers to each bank account for each customer.
+-	This class also keeps track of withdraws and deposits into both chequing’s and savings. 
+
+Chequing Class: 
+-	This class extends the “Account” class and is used to make changed to the chequins account saved in the “Account” class. 
+-	This class can withdraw from the account class whilst also subtracting a fee from the account for each transaction. 
+-	Return true or false as well as the balance after the withdraw .
+
+Savings Class:
+-	Very similar to the “Chequing” Class, but access and makes changes to the saving account of an customer instead on the chequings. 
+-	This class has different parameters when withdrawing, as if the customers balance is below $2000, a fee is charged when withdrawing. 
+-	Also return true or false along with the balance. 
+
+Account Record: 
+-	This class takes in all the edited information from the various classes and sorts and processes it. 
+-	This class stores all information such the name, address, phone number, chequings and savings balance and accounts numbers. 
+
+Account List: 
+-	This class uses “Account Record” and makes a list of customers with all the different information for each customer. 
+-	In this class you can also insert and print all the inserted information. 
+-	This class can also load a file with existing customer information that can be printed and sorted in the class. 
+-	Within this class you can also change data, search for a customer and write to a file.  
+
+LoginGUI: 
+-	 This program is a login screen that launches when the main GUI is launched. 
+-	A pop up window prevents the admin from accessing the program unless the correct password and username is entered. 
+
+Main Interface:
+-	This main interface contains all the above button and text areas and runs the whole program in one. 
+-	This program allows all the classes to run in one. 
+TROUBLE SHOOTING
+
+-	For trouble shooting please read the various sections of the User Manual. Refer to the table of content to find solution location. 
+-	If you have my further questions or concerns please contact the authors of the application by:
+-	Email: sadeembilal2@gmail.com. 
+
