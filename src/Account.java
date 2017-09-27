@@ -139,5 +139,6 @@ public class Account
 
 		//--[getCustomer Testing]
 		System.out.println("Get Customer Information: " + account.getCustomer());
+		System.out.println("Hello");
 	}
 }
