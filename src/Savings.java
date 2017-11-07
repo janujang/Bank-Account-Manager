@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.text.NumberFormat;
 /*
- * Author: Sadeem Bilal and Janujan
+ * Author: Janujan
  * Date: December 1, 2016
  * Description: This program is for the saving class which inherits from the account class. It has a modification to the 
  * 				withdraw method as it has a minimum balance. 

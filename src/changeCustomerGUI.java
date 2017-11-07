@@ -1,16 +1,15 @@
 import javax.swing.*;//importing packages needed for the Gui elements
 import java.awt.*;
 import java.awt.event.*;
-//Author Justin Hans
-//Date Dec, 4
-//Desc. GUI that allows the user to change the customers parameters such as name, address, phone etc
-/**Method List
+/*
+ * Author: Janujan
+ * Date: December 4, 2016
+ * Description: GUI that allows the user to change the customers parameters such as name, address, phone etc
+* Method List
  * changeCustomerGUI ()
  * void keyTyped(KeyEvent e)
  * void actionPerformed (ActionEvent e)
  * void main(String[] args)
- * @author Justin
- *
  */
 public class changeCustomerGUI extends JFrame implements ActionListener
 {

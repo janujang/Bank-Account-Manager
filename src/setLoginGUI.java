@@ -2,15 +2,14 @@ import javax.swing.*;//Importing packages needed for the GUI j components
 import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
-//Author Justin Hans
-//Date Dec, 4
-//Desc. GUI that is a admin function GUI that closes all other main GUIS to aloow the user to change the login, changing the login will require a user to relogin
-/**Method List
+/*
+ * Author: Janujan
+ * Date: December 4, 2016
+ * Description: GUI that is a admin function GUI that closes all other main GUIS to aloow the user to change the login, changing the login will require a user to relogin
+/* Method List
  * setLoginGUI ()
  * void actionPerformed (ActionEvent e)
  * static void main(String[] args)
- * @author Justin
- *
  */
 public class setLoginGUI extends JFrame implements ActionListener
 {

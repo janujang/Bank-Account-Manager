@@ -1,16 +1,16 @@
 import javax.swing.*;//Importing packages funds needs to create GUI
 import java.awt.*;
 import java.awt.event.*;
-//Author Justin Hans
-//Date Dec, 4
-//Desc. GUI that accoutns GUI opens to manage funds of various accounts
-/**method List
+/*
+ * Author: Janujan
+ * Date: December 4, 2016
+ * Description: GUI that accoutns GUI opens to manage funds of various accounts
+ * Method List
  * FundsGUI ()
  * void keyTyped(KeyEvent e)
  * boolean onlyContainsNumbers(String text)
  * void actionPerformed (ActionEvent e)
  * static void main(String[] args)
- * @author Justin
  *
  */
 public class FundsGUI extends JFrame implements ActionListener

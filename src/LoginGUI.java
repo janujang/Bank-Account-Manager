@@ -7,10 +7,11 @@ import java.awt.image.BufferedImage;
 import java.io.*;
 import java.net.URL;
 import java.util.*;
-//Author Justin Hans
-//Date Nov,29
-//Desc. GUI To login into the account management program, once a valid login is entered it loads the AccountsGUI
-/**method List:
+/*
+ * Author: Janujan
+ * Date: December 4, 2016
+ * Description: GUI To login into the account management program, once a valid login is entered it loads the AccountsGUI
+/* Method List:
  * LoginGUI ()
  * Void ActionPerformed (ActionEvent e)
  * Void ItemStateChanged(ItemEvent e)
@@ -22,7 +23,6 @@ import java.util.*;
  * int getAttempts()
  * void setAttempt()
  * String getPass()
- * @author Justin
  *
  */
 public class LoginGUI extends JFrame implements ActionListener
@@ -67,7 +67,7 @@ public class LoginGUI extends JFrame implements ActionListener
 		loginUser.setBounds(275, 240, 240, 40);
 		loginPass.setBounds(275,300,240, 40);
 		showPassword = new JCheckBox("Show Password", false);//New check box, default set to unchecked
-		loginPass.setEchoChar('•');//When anything s typed in box, display this char
+		loginPass.setEchoChar('ï¿½');//When anything s typed in box, display this char
 		showPassword.setBounds(335,340,150,30);//set bounds
 		showPassword.setBackground(Color.decode("#7197D9"));//Match to background
 		add(showPassword);//add each j component
@@ -79,7 +79,7 @@ public class LoginGUI extends JFrame implements ActionListener
 		btnLogin.addActionListener (this);//Listener for the Button
 		showPassword.addItemListener(new ItemListener() {//Item listener, whener the state of the button is changed,  based on what it is either show the password or set the echo to a diff character
 			public void itemStateChanged(ItemEvent e) {         
-				loginPass.setEchoChar((e.getStateChange()==1?(char) 0:'•'));//based on state change which char is showed in field
+				loginPass.setEchoChar((e.getStateChange()==1?(char) 0:'ï¿½'));//based on state change which char is showed in field
 			}           
 		});
 		setVisible (true);//Set visible of the Frame

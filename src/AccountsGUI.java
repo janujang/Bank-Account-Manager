@@ -5,10 +5,11 @@ import java.awt.event.*;
 import java.io.*;
 import java.net.URL;
 import java.text.NumberFormat;
-//Author Justin Hans
-//Date Dec, 4
-//Desc. GUI that login class loads once a valid login is entered, this GUI allows the user to manage their customers bank accounts and perform various functions
-/**method List:
+/*
+ * Author: Janujan
+ * Date: December 4, 2016
+ * Description:GUI that login class loads once a valid login is entered, this GUI allows the user to manage their customers bank accounts and perform various functions
+ * Method List: 
  * AccountsGUI ()
  * void mouseClicked(MouseEvent evt)
  * void actionPerformed(ActionEvent event)
@@ -29,8 +30,6 @@ import java.text.NumberFormat;
  * static boolean isState()
  * void setState(boolean state)
  * static String getAccountInfo(int num)
- * @author Justin
- *
  */
 public class AccountsGUI extends JFrame implements ActionListener//Constructor for AccountsGUI
 {//*********** many of the methods have to be static and the variables also because it means that you can call it even though the object hasnt been created(all the other GUI components require accountsGUI to funtion like this

@@ -4,11 +4,11 @@ import java.awt.*;
 import java.awt.event.*;
 import java.io.*;
 
-
-//Author Janujan
-//Date Dec, 11
-//Desc. GUI to change minimum balance
-/**method List
+/*
+ * Author: Janujan
+ * Date: December 4, 2016
+ * Description: GUI to change minimum balance
+/* Method List
  * setMinimumBalanceGUI ()
  * void keyTyped(KeyEvent e)
  * void actionPerformed (ActionEvent e)

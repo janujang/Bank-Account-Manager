@@ -3,7 +3,7 @@
  */
 import javax.swing.*;
 /**
- *Author: Sadeem Bilal
+ * Author: Janujan
  * Date: December 1, 2016
  * Description: This program is for the customer class. It creates a customer with a name, address and a phone number. 
  * 				Given a record string, it could break the string into pieces of data.

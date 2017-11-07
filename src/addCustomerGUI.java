@@ -1,15 +1,15 @@
 import javax.swing.*;//importing packages for the Jcomponents and window
 import java.awt.*;
 import java.awt.event.*;
-//Author Justin Hans
-//Date Dec, 4
-//Desc. GUI that allows the user to add a new customer to the customer list
-/**method List
+/*
+ * Author: Janujan
+ * Date: December 4, 2016
+ * Description: GUI that allows the user to add a new customer to the customer list
+ * Method List
  * addCustomerGUI ()
  * void keyTyped(KeyEvent e)
  * void actionPerformed (ActionEvent e)
  * static void main(String[] args)
- * @author Justin
  *
  */
 public class addCustomerGUI extends JFrame implements ActionListener
