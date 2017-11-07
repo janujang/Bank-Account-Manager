@@ -14,7 +14,7 @@ import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
 /*
- * Author: Janujan and Sadeem 
+ * Author: Janujan
  * Date: December 4, 2016
  * Description: This program creates a list of account records and allows the user 
  * 				to view the list, change, insert or delete account records. Moreover, it also allows the user to deposit and withdraw money to 
