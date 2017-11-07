@@ -1,7 +1,7 @@
 import java.text.NumberFormat;
 
 /*
- * Author: Janujan and Sadeem 
+ * Author: Janujan
  * Date: December 4, 2016
  * Description: This account records program  stores a particular user's chequing and savings account information as well as customer information. 
  * Method List: 
